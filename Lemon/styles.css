@@ -1,0 +1,25 @@
+header{  text-align: center;
+    background-color: #e6fc74}
+.datos{font-style: italic;}
+body{
+    color: #080f11;
+    background-image: url(http://127.0.0.1:5500/Frontend1/Frontend%20Lemon/img/lemon-pie%201.jpg)
+}
+h1{text-align: center}
+h2{text-align: center}
+section{background-color: #e6fc74;}
+    /* main */
+ main{ /* background-color: #e6fc74;  */
+    text-align:auto;
+    margin: auto;
+    width: 1041px;
+    left: 213px;
+    top: 365px;}
+
+ footer{ 
+    text-align:center;
+    background-color: #e7e9de 
+    }
+
+
+    

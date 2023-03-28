@@ -1,0 +1,43 @@
+/*header */
+.headerSuperior {
+  background-color: black;
+  background-size: 100%;
+  color: blanchedalmond;
+  text-align: left;
+}
+
+.foatDerecha {
+  text-align: right;
+}
+
+/* body */
+body {
+  background-color: rgb(135, 206, 164);
+}
+
+h1 {
+  text-align: center;
+}
+
+.logo {
+  background-color: #f0a83e;
+  color: #ffffff;
+}
+span {
+  color: black;
+}
+
+.platoImg {
+  text-align: center;
+}
+
+/* footer */
+.ig {
+  color: white;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
