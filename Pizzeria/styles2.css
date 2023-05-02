@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #E5E5E5;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    overflow: hidden;
+}
+
+/* Header*/
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+
+.title{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    font-family:Roboto, sans-serif;
+    margin-left:10px;
+    
+}
+.verde{
+    color:#39B24A ;
+}
+.blanco{
+    color: #FFFFFF;
+}
+.rojo{
+    color:#FC200C ;
+}
+
+
+.containerLogo{
+    display:flex;
+}
+
+nav ul{
+    display:flex;
+    gap: 13px;
+    list-style: none;
+    color:white;
+    font-family:Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    @media (max-width:720px) {
+    display: none;
+    }
+}
+
+/*Main*/
+
+main{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-content: center;
+    margin-top: 35px;
+    @media (max-width: 720px){
+        flex-direction: column;
+    }
+}
+
+.imgCard1, .imgCard2{
+    width: 490px;
+    height: 350px;
+    border-radius: 5px;
+    background-color: white;
+}
+.imgCard1{
+    position: relative;
+}
+
+.imgCard2{
+    min-width: 490px;
+}
+.containerEnvio{
+    position:absolute;
+    top: 24px;
+    left: 5%;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size:24px;
+}
+.cardContainer1{
+    position: relative;
+}
+
+.imgCard2 .rojo{
+    display: flex;
+justify-content: center;
+margin-top: 26px;
+font-family: Roboto;
+font-weight: 700;
+font-size:24px;
+}
+
+.cardContainer2{
+    display: flex;
+    justify-content:space-around;
+    margin-top:58px
+}
+
+.top{
+font-family: Roboto;
+font-weight: 700;
+font-size:20px;
+}
+
+.cardContainer2 ol{
+    margin-top:20px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size:16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+/*Footer*/
+footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222222;
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 10px
+
+}
+
+footer ul{
+    flex-direction: column;
+    padding-left: 10px;
+
+}
+
+
+
+
